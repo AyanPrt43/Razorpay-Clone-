@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-mulish: "Mulish", sans-serif;
+  --color-deep-blue: #02042a;
+  --color-light-blue: #2b84ea;
+  --color-light-blue-300: #4b94ed;
+  --color-light-blue-500: #0b72e7;
+  --color-green-light: #61cea6;
+  --color-gray-text: #818597;
+  --color-light-gray: #e2e2e2;
+  --color-gray-blue: #344a6c;
+  --color-deep-blue-head: #162f56;
+  --color-gray2: #525a76;
+  --color-offwhite: #ECF3FB;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+[data-tap-card].tap-active {
+  transform: translateY(-0.25rem) scale(1.03);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.16);
+}
